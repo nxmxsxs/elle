@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = [
+  "elle-history-ring",
+]
+
+[workspace.dependencies]
+thiserror = { version = "2.0" }
